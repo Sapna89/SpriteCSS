@@ -1,0 +1,443 @@
+.wrap{
+    min-height: 100%;
+    position: relative;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    /*background-image: url("../images/bg.png");*/
+}
+
+
+
+/* ******************************CLASS MAIN BODY - About Page - Styling******************************* */
+.main-body{
+    height: 100%;
+    /*margin-top: 30px;*/
+    /*padding-bottom: 140px;*/
+}
+
+.form-horizontal h2{
+    background-color: rgba(128, 136, 134, 0.6);
+    height: 30px;
+    padding: 5px 10px 5px;
+    color: rgb(13, 119, 142);
+    font-size: 1.6em;
+}
+
+.main-body div{
+    /*background-color: rgba(128, 136, 134, 0.2);*/
+    /*height: 40px;*/
+
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    padding: 5px 10px 5px;
+    color: #787b80;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.content-horizontal{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+.content-horizontal > article{
+    margin-left: 20px;
+    width: 100%;
+}
+.content-horizontal dl{
+    display: flex;
+    display: -webkit-flex;
+    padding: 0px 10px;
+    margin-left: 5px;
+}
+.content-horizontal dl>dd{
+    padding-left: 5px;
+}
+
+/* ******************************NAVIGATION Styling******************************* */
+
+div.hide-desktop{
+    display: none;
+}
+
+
+nav{
+    /*background-color: transparent;*/
+    background-color: #ffffff;
+    /*opacity: 0.4;*/
+}
+
+nav:before{
+    border-bottom: 1px solid #dfdfdf;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+
+#primary-nav{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+}
+
+#primary-nav #logo{
+    width: auto;    
+    /*margin-right: 5px;*/
+    padding: 5px 5px;
+}
+
+#primary-nav ul{
+    width: 1100px;
+}
+
+#primary-nav ul li{
+    width: 200px;
+}
+
+#primary-nav a{
+    font-size: 1.2em;
+    padding: 25px 10px;
+}
+
+#primary-nav a.scrollable {
+    font-size: 1em;
+    padding: 3px 3px;
+}
+
+#primary-nav #logo.scrollable {
+    font-size: 1.25em;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover
+{
+    background-color: rgba(128, 136, 134, 0.65);
+    border-bottom-color: rgba(128, 136, 134, 0.65);
+    color: #ffffff;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(128, 136, 134, 0.65);
+    color: #ffffff;
+}
+.nested-header{
+    background-color: #FF6D52;
+    padding-top: 25px;
+}
+.nested-header .page-header{
+    height: 160px;
+    color: #ffffff;
+    border-bottom: 1px;
+}
+.nested-header .page-header[data-page="index"]{
+    background: url("../images/awesomeapple2.jpg") 100% 50% no-repeat;
+}
+
+hr{
+    width: 1000px;
+    height: 2px;
+    background-color: rgb(13, 119, 142);
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    background: #EEEEEE;
+    margin-top: 40px;
+    height: 60px;
+    border-top: 1px solid #CCCCCC;
+    width: 100%;
+}
+
+footer p{
+    padding-top: 20px;
+    font-size: 16px;
+    margin-left: 350px;
+    color: rgb(13, 119, 142);
+}
+
+footer p a{
+    text-decoration: underline;
+    color: rgb(13, 119, 142);
+}
+
+.form-group>.form-button{
+    display: flex;
+    -webkit-display: flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    margin-right: 15px;
+}
+label.error{
+    color: #a94442;
+    background-color: #f2dede;
+}
+.btn{
+    height: 100%;
+}
+.wrap-btn{
+    padding-right: 24px;
+}
+.modal-dialog {
+    width: 1054px;
+}
+
+
+/* ********************************************************************* */
+
+/*----------------------------------------------*/
+/*CLASS ROW - About Page Img color and placement*/
+/*----------------------------------------------*/
+.row .col-lg-4 h2{
+    /*background-color: rgba(128, 136, 134, 0.15);*/
+    /*height: 30px;*/
+    text-align: center;
+    /*padding: 5px 80px 5px;*/
+    /*margin-left: 20px;*/
+    color: rgb(13, 119, 142);
+    font-size: 1.6em;
+}
+
+.row .col-lg-4 h2::after{
+    content: '';
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 70px;
+    height: 2px;
+    background-color: rgba(8, 97, 20, 0.47);
+    float: centre;
+    margin-bottom: 10px;
+}
+
+.toLeft{
+    float: left;
+    width: 250px;
+}
+
+#ideaCafe{
+    margin-bottom: 10px;
+}
+
+
+
+/*-------------------------------*/
+/*Styling for the Index/home page*/
+/*-------------------------------*/
+.conferencePage{
+    background-image: url("../images/homepageImg.jpg");
+    height: 390px;
+    /*width: 635px;*/
+    padding-left: 500px;
+    /*float: center;*/
+    /*margin-left: 1500px;*/
+    /*left: 1000px;*/
+}
+
+.conferencePage h3{
+    color: #ffffff;
+    /*font-family: */
+    font-size: 40px;
+    /*padding: 2px;*/
+    margin-left: 250px;
+    margin-top: 12px;
+}
+
+.conferencePage p{
+    color: #ffffff;
+    font-size: 16px;        
+    /*padding: 1px;*/
+    margin-left: 120px;
+} 
+
+#registerHomePage{
+    background-color: #EA3F69;
+    color: #ffffff;
+    font-size: 16px;        
+    padding: 10px;
+    margin-left: 450px;
+    width: 117px;
+} 
+
+.conferencePage h4{
+    color: #ffffff;
+    font-size: 20px;        
+    padding: 5px;
+    margin-left: 430px;
+} 
+
+/*.conferencePage aside h5{
+    font-size: 25px;
+    color: rgb(13, 120, 150);
+    text-decoration: underline;
+}*/
+
+.conferencePage aside{
+    color: rgb(13, 119, 142);
+    /*font-size: 20px;*/
+    padding: 5px;
+    margin-left: 700px;
+}
+
+.conferencePage div.row{
+    height: 160px;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+aside.when, aside.where{
+    background-color: rgba(70, 175, 197, 0.9);
+    color: #ffffff; 
+    width: 240px;
+    height: 130px; 
+    padding: 0.2px;  
+}
+
+aside.when{
+    margin: 0 0 20px 120px; 
+}
+
+
+.conferencePage button.emailMe{
+    margin-left: 215px;
+}
+
+aside.when h5, aside.where h5{
+    /*margin-left: 68px;*/
+    text-decoration: bold;
+    text-align: center;
+}
+
+aside.when div#conferenceDate{
+    /*margin-left: 30px;*/
+    color: #ffffff;
+    padding: 0 0;
+    /*margin-left: 25px;*/
+    text-align: center;
+}
+
+aside.where{    
+    margin: 0 0 20px 180px; 
+}
+
+.conferencePage button.navigateMe{
+    margin-left: 440px;
+}
+
+aside.where div#conferenceLocation{
+    /*margin-left: 30px;*/
+    color: #ffffff;
+    padding: 0 0;
+    /*margin-left: 10px;;*/
+    text-align: center;
+}
+
+/*CSS Sprite Icon */
+/* Shared Icon Class */
+span.icon a:link,
+span.icon a:visited {
+    display: block;
+    text-indent: -9999px;
+    background-image: url(../images/sprites1.jpg);
+    background-repeat: no-repeat;
+}
+
+/* When Icon */
+/*span.when1 a{
+    margin-top: 10px;
+}*/
+
+span.when1 a{
+    width: 22px;
+    height: 22px;
+    padding: 0 0;
+    margin-left: 110px; 
+}
+
+span.when1 a:link,
+span.when1 a:visited {    
+    background-position: 0 0 ;
+}
+
+span.when1 a:hover {background-position: 0 -21px;}
+/*span.when a:active {background-position: 0 -240px;}*/
+
+/* Where Icon */
+span.where1 a{
+    width: 22px;
+    height: 22px;
+    padding: 0 0;
+    margin-left: 110px; 
+}
+
+span.where1 a:link,
+span.where1 a:visited {
+    background-position: -28px -2px;
+}
+
+span.where1 a:hover {background-position: -28px -24px;}
+/*span.contact a:active {background-position: -120px -120px;}*/
+
+
+
+/*---------------------*/
+/*Speakers Page Styling*/
+/*---------------------*/
+.keySpeakers{
+    /*height: 150px;*/
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.second{
+    float: right;
+}
+
+.speakersBios{
+    border-style: groove;
+    background-color: rgba(236, 207, 218, 0.66);
+    width: 216px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+
+
+/*---------------------*/
+/*Sponsors Page Styling*/
+/*---------------------*/
+.sponsorsPage{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+#sponsorsH2{
+    background-color: #ffffff;
+    padding: 5px 5px;
+    margin-left: 200px;
+    /*width: 585.5px;*/
+    height: 40px;
+    color: rgb(86, 193, 216);
+    font-size: 30px;
+    font-family: fantasy;
+    text-decoration: underline;
+    /*border-radius: 10px;*/
+}
